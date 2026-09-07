@@ -1,0 +1,3 @@
+[build]
+  command = "DESIGN_ATLAS_URL=https://the-design-atlas.netlify.app node prototype/build-release.js"
+  publish = "prototype/dist"
