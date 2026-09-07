@@ -15,6 +15,12 @@ node build-preview.js
 
 Open `prototype/preview.html` for the standalone local preview.
 
+## Branches
+
+- `main`: production baseline
+- `dev`: integration and testing
+- Create `feature/*` or `fix/*` branches from the latest `dev` for new work.
+
 ## Release
 
 ```bash

@@ -210,9 +210,17 @@ prototype/
 
 ### 需要带走什么
 
-要继续修改，必须复制整个 `prototype` 文件夹和本交接文档。不要只复制 `dist` 或 `design-atlas-release.zip`，因为它们主要用于发布，缺少设计过程与维护上下文。
+项目已经同步到 GitHub。换电脑时优先克隆完整仓库：
 
-推荐使用同目录生成的 `design-atlas-project-handoff.zip`。解压后即可获得源文件、构建脚本、发布版本和本交接文档。
+```bash
+git clone https://github.com/Qihua2026/Designer-s-Webs.git
+cd Designer-s-Webs
+git switch dev
+```
+
+不要只复制 `dist` 或 `design-atlas-release.zip`，因为它们主要用于发布，缺少设计过程与维护上下文。
+
+无法使用 Git 时，可改用同目录生成的 `design-atlas-project-handoff.zip`。解压后可获得源文件、构建脚本、发布版本和本交接文档。
 
 ### 环境要求
 
@@ -264,6 +272,16 @@ favorites-preview.html
 - 发布方式：Netlify Drop 手动上传
 - 管理入口：https://app.netlify.com/projects/the-design-atlas/overview
 - 2026-09-07 已确认：首页、收藏页、Logo、分享封面均返回 HTTP 200。
+
+### 当前 GitHub 信息
+
+- 仓库：https://github.com/Qihua2026/Designer-s-Webs
+- 可见性：Public
+- 生产分支：`main`
+- 开发分支：`dev`
+- 本轮交接分支：`feature/design-atlas-v1-handoff`
+- 首次提交：`6c16244 feat: add Design Atlas site`
+- 日常修改应从最新 `dev` 创建 `feature/*` 或 `fix/*` 分支，通过 Pull Request 合并回 `dev`；验收后再将 `dev` 合并到 `main`。
 
 ### 生成正式发布目录
 
@@ -338,11 +356,11 @@ node build-release.js
 2. **两项链接待确认**
    Open Motion 与 Gooey 只能浏览封面和信息，不能外跳。
 
-3. **发布是手动流程**
-   当前没有 Git 仓库或 CI。每次修改后必须重新构建并拖拽 `dist`。
+3. **Netlify 发布仍是手动流程**
+   GitHub 仓库已建立，但 Netlify 尚未连接 GitHub。每次修改后仍需重新构建并拖拽 `dist`；仓库根目录的 `netlify.toml` 已为后续自动部署做好配置。
 
-4. **GitHub 首次同步状态**
-   本地 Git 仓库与远程 `https://github.com/Qihua2026/Designer-s-Webs` 已配置，源文件已整理进入暂存区。完成首次推送后，应以 GitHub 作为跨电脑同步与版本历史的主要来源。
+4. **GitHub 已成为主要同步来源**
+   `main` 与 `dev` 已推送到远程仓库。跨电脑继续工作时应从 GitHub 克隆，并在 `dev` 基础上创建新分支，避免直接修改 `main`。
 
 5. **封面不是目标网站截图**
    后续若改用真实截图，需要重新评估图片版权、更新频率、加载性能与压缩策略。
