@@ -2,7 +2,7 @@
 
 最近核对：2026-09-07。19 个已填写 URL 的条目均能通过网页抓取或搜索索引确认；Posts 首页直接抓取曾超时，但同期搜索索引与站内页面正常。Open Motion 与 Gooey 仍无法和原始截图可靠对应，因此不补猜测链接。
 
-当前共 21 个去重网站。前批截图去重后为 18 项，加上原有 Visual Journal 为 19 项；最新截图补充 DesEngs Minimum 与 Gooey，Visual Journal 不重复添加。分类遵循用户截图，不代表站点只提供这一类内容。
+当前共 23 个去重网站（2026-09-08 新增 Eleken 与 Design Spells）。前批截图去重后为 18 项，加上原有 Visual Journal 为 19 项；最新截图补充 DesEngs Minimum 与 Gooey，Visual Journal 不重复添加。分类遵循用户截图，不代表站点只提供这一类内容。
 
 ## 本次新增
 
@@ -70,3 +70,14 @@ DesEngs Minimum 已核对官方目录，独立于 Inspiration 栏目。Gooey 存
 | vibe-prompts | 界面生成 / 提示词 |
 | desengs-minimum | 极简网页案例 |
 | gooey | UI 效果 / 前端示例 |
+
+## 2026-09-08 补充
+
+已核对用户提供的两个官方页面，保留原始链接及筛选参数。
+
+| 网站 | 分类 | 内容细分类 | 链接 |
+|---|---|---|---|
+| Eleken | PAGE INSPIRATION | SaaS UI / UX case studies | [案例目录](https://www.eleken.co/cases) |
+| Design Spells | MOTION | Desktop interactions / UI details | [Desktop 筛选页](https://designspells.com/?tag=desktop) |
+
+Eleken 展示 SaaS 产品的 UI/UX 设计案例；Design Spells 收集交互与界面细节，所选入口为 Desktop。按内容分别归入页面灵感与交互动效。两张封面沿用原创 HTML/CSS 字体与色块示意，并非网站截图。

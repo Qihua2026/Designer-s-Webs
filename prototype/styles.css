@@ -42,3 +42,5 @@ header #saved-count{font-size:11px;font-weight:400;letter-spacing:0}
 .noscript{margin:0;padding:12px var(--space);background:var(--ink);color:#fff;text-align:center;font-size:14px}
 .save{position:relative}
 .save::before{content:"";position:absolute;inset:-12px}
+
+.eleken-art{background:#f0db55;color:#292919}.eleken-art .art-title{letter-spacing:-1.5px}.spells-art{background:#283c34;color:#ece5c9}.spells-art .art-title{font-family:Georgia,serif;font-weight:400;font-style:italic}

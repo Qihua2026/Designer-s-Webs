@@ -14,7 +14,7 @@
 - 收藏保存在当前浏览器；HTTP 同源页面共享 localStorage。直接打开本地文件时，通过站内导航传递收藏 ID 并存入目标页面，抵消浏览器对不同文件的存储隔离；存储不可用时仍可通过站内导航携带本次收藏。
 - / 聚焦搜索，Escape 清空搜索。外部网站在新窗口打开。
 - 封面均为原创 HTML/CSS 视觉示意，不是网站截图。
-- 当前 21 个网站：用户补充的各批截图已去重合并，包含独立的 DesEngs Inspiration 和 DesEngs Minimum。
+- 当前 23 个网站（含新增 Eleken 与 Design Spells）：用户补充的各批截图已去重合并，包含独立的 DesEngs Inspiration 和 DesEngs Minimum。
 - 卡片标签统一为「主分类 · 内容细分类」，不再显示网站自身的视觉风格。
 - 分类按用户截图整理，WEB 对应 PAGE INSPIRATION，Loadmore 归入 MOTION。
 - Open Motion、Gooey 尚无法确认截图对应的 URL，已收录并标注「链接待确认」。其余新增链接已核对，链接与来源见 site-sources.md。
